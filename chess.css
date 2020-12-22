@@ -1,0 +1,42 @@
+h1  {
+    color : orange ;
+    font-size : 40px ;
+    background-color : gray ;
+    height: 50px ;
+    text-align: center ;
+    vertical-align : middle ;
+    border-bottom-color: black ;
+    border-bottom-width: 5px ;
+    border-bottom-style: solid ;
+    border-top-color: black ;
+    border-top-width: 5px ;
+    border-top-style: solid ;
+
+}
+
+.Separator
+{
+    height:20px;
+}
+
+.BoardContainer
+{
+    margin:0 auto;
+    width : 800px;
+    border-width : 5px ;
+    border-color: black ;
+    border-style : double ;
+}
+
+.Board {
+    width : 800px ;
+    height : 800px ;
+    border-width : 5px ;
+    border-color: black ;
+    border-style : double ;
+}
+
+.BoardSquare {
+    width : 100px ;
+    height : 100px ;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript Chess</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="chess.css">
+</head>
+  <body>
+    <header>
+        <h1>JavaScript Chess</h1>
+    </header>
+
+    <div class="Separator"></div>
+    
+    <section>
+        <div class="BoardContainer" id="BoardID">
+            <script src="chess.js"></script>
+            <script>CreateSquares("BoardID");</script>
+            <script>document.write(GetSquareLocationText(4,5));</script>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+    
+  </body>
+</html>
